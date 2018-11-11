@@ -1,6 +1,5 @@
 import React from "react";
-
-const Highlight = ({children}: { children: string }) => <span style={{backgroundColor: "gold"}}>{children}</span>;
+import {Highlight} from "../utils/Highlight";
 
 const DCBYvsCCBY = () => {
     return <div className={"comparison"}>
