@@ -5,9 +5,9 @@ import {Highlight} from "./utils/Highlight";
 const Attribution = () => {
     return <main>
         <h1 id="attribution">Attribution</h1>
-        <p>Specifics of attribution requirement are inextricably bound with design of the DC BY license and
-            registry.</p>
-        <p>To provide context, we need to have a look at the Creative Commons attribution practices. </p>
+        <p>This page explores attribution requirements for the DC BY license that are inextricably bound with a design
+            of DC registry.</p>
+        <p>To provide context, we start at looking at current Creative Commons attribution best practices. </p>
         <h1 id="cc-by-attribution">CC BY attribution</h1>
         <p><a href="https://wiki.creativecommons.org/wiki/Best_practices_for_attribution">
             Best practices for attribution</a> from Creative Commons guidelines:</p>
@@ -35,7 +35,14 @@ const Attribution = () => {
                 License? “CC BY 2.0” - linked to license deed
             </li>
         </ul>
-
+        <p>
+            Links equity flow:
+        </p>
+        <ul>
+            <li>Author -> to Flickr profile page</li>
+            <li>Source -> to Flickr image page</li>
+            <li>License -> to creative commons website</li>
+        </ul>
     </main>;
 };
 
