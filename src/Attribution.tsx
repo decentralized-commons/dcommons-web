@@ -39,9 +39,50 @@ const Attribution = () => {
             Links equity flow:
         </p>
         <ul>
-            <li>Author -> to Flickr profile page</li>
-            <li>Source -> to Flickr image page</li>
+            <li>Author -> to Flickr</li>
+            <li>Source -> to Flickr</li>
             <li>License -> to creative commons website</li>
+        </ul>
+        <h1 id="dc-by-attribution">DC BY attribution</h1>
+        <h2>Variant 1</h2>
+        <p><a
+            href="http://timothyvollmer.com/8256206923">“Creative
+            Commons 10th Birthday Celebration San Francisco”</a> by <a
+            href="http://timothyvollmer.com">tvol</a> is licensed under <a
+            href="https://www.decentralizedcommmons.com/by/0.1/">DC BY 0.1</a></p>
+        <p>
+            Because:
+        </p>
+        <ul>
+            <li>
+                Title? “Creative Commons 10th Birthday Celebration San Francisco”
+            </li>
+            <li>
+                Author? “tvol” - linked to <Highlight>the author's domain</Highlight>
+            </li>
+            <li>
+                Source? “Creative Commons 10th Birthday Celebration San Francisco” - linked to <Highlight>the image page
+                on the author's domain</Highlight>
+            </li>
+            <li>
+                License? “DC BY 0.1” - linked to license deed
+            </li>
+        </ul>
+        <p>
+            Links equity flow:
+        </p>
+        <ul>
+            <li>Author -> <Highlight>to author's website</Highlight></li>
+            <li>Source -> <Highlight>to author's website</Highlight></li>
+            <li>License -> to decentralized commons website</li>
+        </ul>
+        <p>
+            Limitations:
+        </p>
+        <ul>
+            <li>An author may not have a domain/website</li>
+            <li>Domain registration fees may be too high</li>
+            <li>Domain registration may not be renewed in time and domain will be registers by cybersquatters</li>
         </ul>
     </main>;
 };
