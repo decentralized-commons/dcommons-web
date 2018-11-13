@@ -84,6 +84,46 @@ const Attribution = () => {
             <li>Domain registration fees may be too high</li>
             <li>Domain registration may not be renewed in time and domain will be registers by cybersquatters</li>
         </ul>
+        <h2>Variant 2</h2>
+        <p><a
+            href="http://dcommons-registry.com/timothyvollmer/8256206923">“Creative
+            Commons 10th Birthday Celebration San Francisco”</a> by <a
+            href="http://dcommons-registry.com/timothyvollmer/">tvol</a> is licensed under <a
+            href="https://www.decentralizedcommmons.com/by/0.1/">DC BY 0.1</a></p>
+        <p>
+            Because:
+        </p>
+        <ul>
+            <li>
+                Title? “Creative Commons 10th Birthday Celebration San Francisco”
+            </li>
+            <li>
+                Author? “tvol” - linked to <Highlight>the author's page on the DC registry</Highlight>
+            </li>
+            <li>
+                Source? “Creative Commons 10th Birthday Celebration San Francisco” - linked to <Highlight>the image page
+                on the DC registry </Highlight>
+            </li>
+            <li>
+                License? “DC BY 0.1” - linked to license deed
+            </li>
+        </ul>
+        <p>
+            Links equity flow:
+        </p>
+        Link equity is transferred from registry URIs to URIs on the author's domain using rel="canonical" tag
+        attribute.
+        <ul>
+            <li>Author -> <Highlight>to registry domain -> to author's website</Highlight></li>
+            <li>Source -> <Highlight>to registry domain -> to author's website</Highlight></li>
+            <li>License -> to decentralized commons website</li>
+        </ul>
+        <p>
+            Limitations:
+        </p>
+        <ul>
+            <li>Registry domain becomes a single point of failure for link equity of all creators</li>
+        </ul>
     </main>;
 };
 
