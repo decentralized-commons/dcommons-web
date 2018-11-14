@@ -1,5 +1,10 @@
-import React from "react"
+import React from "react";
 
-const Highlight = ({children}: { children: string }) => <span style={{backgroundColor: "gold"}}>{children}</span>;
+const Highlight = ({children, backgroundColor}: { children: string, backgroundColor: string }) => <span
+    style={{backgroundColor}}>{children}</span>;
 
-export {Highlight}
+
+const HighlightDifference = (props:any) => <Highlight backgroundColor="gold">{props.children}</Highlight>;
+const HighlightWarning = (props:any) => <Highlight backgroundColor="rgba(255,65,54, 0.5)">{props.children}</Highlight>;
+
+export {Highlight, HighlightDifference, HighlightWarning};
