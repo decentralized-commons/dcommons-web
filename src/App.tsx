@@ -7,13 +7,17 @@ import {Route, Switch} from "react-router";
 import Header from "./Header";
 import Registry from "./Registry";
 import Attribution from "./Attribution";
+import Nav from "./Nav";
 
 class App extends Component {
     render() {
         return (
             <BrowserRouter>
                 <div className="App">
-                    <Header/>
+                        <Switch>
+                            <Route exact path="/" component={Header}/>
+                            <Route path="/" component={Nav}/>
+                        </Switch>
                     <main>
                         <Switch>
                             <Route exact path="/" component={Frontpage}/>
