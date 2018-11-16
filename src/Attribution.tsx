@@ -1,5 +1,5 @@
 import React from "react";
-import {Highlight} from "./utils/Highlight";
+import {HighlightDifference as HD} from "./utils/Highlight";
 
 
 const Attribution = () => {
@@ -58,11 +58,11 @@ const Attribution = () => {
                 Title? “Creative Commons 10th Birthday Celebration San Francisco”
             </li>
             <li>
-                Author? “tvol” - linked to <Highlight>the author's domain</Highlight>
+                Author? “tvol” - linked to <HD>the author's domain</HD>
             </li>
             <li>
-                Source? “Creative Commons 10th Birthday Celebration San Francisco” - linked to <Highlight>the image page
-                on the author's domain</Highlight>
+                Source? “Creative Commons 10th Birthday Celebration San Francisco” - linked to <HD>the image page
+                on the author's domain</HD>
             </li>
             <li>
                 License? “DC BY 0.1” - linked to license deed
@@ -72,8 +72,8 @@ const Attribution = () => {
             Links equity flow:
         </p>
         <ul>
-            <li>Author -> <Highlight>to author's website</Highlight></li>
-            <li>Source -> <Highlight>to author's website</Highlight></li>
+            <li>Author -> <HD>to author's website</HD></li>
+            <li>Source -> <HD>to author's website</HD></li>
             <li>License -> to decentralized commons website</li>
         </ul>
         <p>
@@ -98,11 +98,11 @@ const Attribution = () => {
                 Title? “Creative Commons 10th Birthday Celebration San Francisco”
             </li>
             <li>
-                Author? “tvol” - linked to <Highlight>the author's page on the DC registry</Highlight>
+                Author? “tvol” - linked to <HD>the author's page on the DC registry</HD>
             </li>
             <li>
-                Source? “Creative Commons 10th Birthday Celebration San Francisco” - linked to <Highlight>the image page
-                on the DC registry </Highlight>
+                Source? “Creative Commons 10th Birthday Celebration San Francisco” - linked to <HD>the image page
+                on the DC registry </HD>
             </li>
             <li>
                 License? “DC BY 0.1” - linked to license deed
@@ -114,8 +114,8 @@ const Attribution = () => {
         Link equity is transferred from registry URIs to URIs on the author's domain using rel="canonical" tag
         attribute.
         <ul>
-            <li>Author -> <Highlight>to registry domain -> to author's website</Highlight></li>
-            <li>Source -> <Highlight>to registry domain -> to author's website</Highlight></li>
+            <li>Author -> <HD>to registry domain -> to author's website</HD></li>
+            <li>Source -> <HD>to registry domain -> to author's website</HD></li>
             <li>License -> to decentralized commons website</li>
         </ul>
         <p>
