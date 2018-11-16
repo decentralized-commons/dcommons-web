@@ -1,5 +1,6 @@
 import React from "react";
 import {HighlightDifference as HD} from "../utils/Highlight";
+import {Link} from "react-router-dom";
 
 
 const DCBYvsCCBY = () => {
@@ -84,6 +85,10 @@ const DCBYvsCCBY = () => {
                 </HD>
             </p>
         </div>
+        <p>
+            Further description of possible attribution requirements can be found on <Link to={"/attribution"}>this
+            page</Link>.
+        </p>
     </div>;
 };
 export default DCBYvsCCBY;

@@ -1,10 +1,11 @@
 import React from "react";
+import {Link} from "react-router-dom"
 
 const Registry = () => <section className={"registry"}>
     <h1> Registry </h1>
     <p>
-        Items in this list are design goals. Actual specification drafts will be
-        published at a later time.
+        Items in this list are design goals. Exploration of possible design can be found <Link to={"/registry"}> here.
+    </Link>
     </p>
     <div className={"registry-grid"}>
         <div>
