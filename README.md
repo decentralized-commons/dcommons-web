@@ -1,5 +1,5 @@
 # Decentralized Commons web app
 
-A web app for decentralizedcommons.com 
+A web app for decentralizedcommons.org website
 
 
