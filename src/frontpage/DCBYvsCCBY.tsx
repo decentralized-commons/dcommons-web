@@ -86,6 +86,9 @@ const DCBYvsCCBY = () => {
             </p>
         </div>
         <p>
+
+        </p>
+        <p>
             Further description of possible attribution requirements can be found on <Link to={"/attribution"}>this
             page</Link>.
         </p>

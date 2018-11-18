@@ -3,22 +3,22 @@ import React, {Component} from "react";
 const FAQ = () => <section className={"faq"}>
     <h1>FAQ</h1>
     <div className={"question-answers"}>
-        <div>What is a possible future for DC-BY?</div>
+        <div>What is a possible future for DC BY?</div>
         <div>
             <p>
-                The best outcome would probably result in merger of the DC-BY license into the Creative Commons mainline
+                The best outcome would probably result in merger of the DC BY license into the Creative Commons mainline
                 under
                 the stewardship of Creative Commons foundation.
             </p>
         </div>
-        <div>Why would I want to use DC-BY vs CC-BY?</div>
+        <div>Why would I want to use DC BY vs CC BY?</div>
         <div>
             <p>
                 At this moment, you shouldn't use any DC license for any of your works.
-                DC-BY is under active development and wasn't validated.
+                DC BY is under active development and wasn't validated.
             </p>
             <p>
-                When the license terms will be finalized, you would want to use DC-BY license if you
+                When the license terms will be finalized, you would want to use DC BY license if you
                 can
                 imagine a way to obtain economical or non-economical value from the increased number
                 of visitors to
@@ -67,6 +67,6 @@ const FAQ = () => <section className={"faq"}>
             href="mailto:ontofractal@protonmail.com">ontofractal@protonmail.com</a>
         </div>
     </div>
-</section>
+</section>;
 
-export default FAQ
+export default FAQ;
