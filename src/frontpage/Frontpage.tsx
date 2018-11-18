@@ -10,7 +10,7 @@ import {HighlightWarning as HW} from "../utils/Highlight";
 
 const Frontpage = () => {
     return <div>
-        <h1>DC-BY 0.1</h1>
+        <h1>DC BY 0.1</h1>
         <div>
             <p>
                 DC BY license is a first Decentralized Commons project.

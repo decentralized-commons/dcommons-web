@@ -3,7 +3,7 @@ import React, {Component} from "react";
 const Public = () => <section className={"public"}>
     <h1>Public benefit</h1>
     <p>
-        DC-BY license does not remove or restrict any freedoms for public granted by the
+        DC BY license does not remove or restrict any freedoms for public granted by the
         Creative Commons license.
 
         You are free to:

@@ -53,7 +53,7 @@ const Motivation = () => <section className={"motivation"}>
     </p>
     <p>
         This is at 500 million works where link equity was taken from the rightful artist.
-        DC-BY goal is to change that.
+        DC BY goal is to change that.
     </p>
 </section>
 
