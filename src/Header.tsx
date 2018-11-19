@@ -10,7 +10,7 @@ const Header = () => {
         </div>
         <div className={"pitch"}>
             <p>
-                Decentralized Commons is an experimental strategy developed to meaningfully increase value flows
+                Decentralized Commons is an experimental non-profit initiative developed to meaningfully increase value flows
                 to authors of works published under copyleft licenses while protecting public interest.
             </p>
         </div>
