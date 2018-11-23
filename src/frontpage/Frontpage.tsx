@@ -6,14 +6,29 @@ import Registry from "./Registry";
 import FAQ from "./FAQ";
 import "./Frontpage.css";
 import React from "react";
-import {HighlightWarning as HW} from "../utils/Highlight";
+import {HighlightWarning as HW, HighlightDifference as HD} from "../utils/Highlight";
 
 const Frontpage = () => {
-    return <div>
+    return <div className={"Frontpage"}>
+        <section className={"Projects"}>
+            <h1>Projects</h1>
+            <p>
+                Decentralized Commons initiative includes two projects: DC BY 0.1 and Authors Link Equity Regeneration
+                Campaign
+            </p>
+            <p><HD>DC BY 0.1</HD> is a fork of Creative Commons BY license with modifications ensure that creators
+                receive the majority of value from link equity created by attribution links.
+            </p>
+            <p>
+                <HD>Authors Link Equity Regeneration Campaign</HD> is an action plan focused on healing the damage done
+                to the
+                commons by the
+                exploitative rent-seeking behavior of megacorps.
+            </p>
+        </section>
         <h1>DC BY 0.1</h1>
         <div>
             <p>
-                DC BY license is a first Decentralized Commons project.
             </p>
             <p>
                 DC BY is a fork of Creative Commons CC BY license that redirects link equity captured by the platforms
