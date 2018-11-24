@@ -57,3 +57,12 @@ main .value-flows {
     font-size: 16px;
 }
 
+.Frontpage h1 {
+    border-bottom: grey dashed 2px;
+}
+
+.Frontpage  .Projects .container {
+   display: flex;
+    justify-content: space-between;
+}
+

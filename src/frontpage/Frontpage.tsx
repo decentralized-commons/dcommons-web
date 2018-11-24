@@ -7,6 +7,7 @@ import FAQ from "./FAQ";
 import "./Frontpage.css";
 import React from "react";
 import {HighlightWarning as HW, HighlightDifference as HD} from "../utils/Highlight";
+import {Link} from "react-router-dom";
 
 const Frontpage = () => {
     return <div className={"Frontpage"}>
@@ -20,7 +21,9 @@ const Frontpage = () => {
                 receive the majority of value from link equity created by attribution links.
             </p>
             <p>
-                <HD>Authors Link Equity Regeneration Campaign</HD> is an action plan focused on healing the damage done
+                <Link to={"/alerc"}>
+                    <HD>Authors Link Equity Regeneration Campaign</HD>
+                </Link> is an action plan focused on healing the damage done
                 to the
                 commons by the
                 exploitative rent-seeking behavior of megacorps.
@@ -38,11 +41,11 @@ const Frontpage = () => {
                 <HW>The project is still in early stages and is under active development.</HW>
             </p>
         </div>
+        <Motivation/>
         <section>
             <h1>Comparison of relevant CC BY and DC BY clauses</h1>
             <DCBYvsCCBY/>
         </section>
-        <Motivation/>
         <Public/>
         <ValueFlows/>
         <Registry/>
