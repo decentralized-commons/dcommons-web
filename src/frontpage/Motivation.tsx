@@ -17,12 +17,10 @@ const Motivation = () => <section className={"motivation"}>
         practicable, URI or link to the material if supplied".
     </p>
     <p>
-        In an online context, the most significant component of HTML link value generation for a
-        link recipient
-        is <LinkEquityExplanationLink/>. Link equity is an abstraction that describes a
-        influence of the given link metrics on the rankings of search engine results
-        page(SERP). In general, increase in link equity meant higher positions in SERP and more
-        traffic from search engines.
+        In an online context, the most valuable component of HTML links is <LinkEquityExplanationLink/>. Link equity is an abstraction
+        that describes an influence of the given link on the rankings of search engine results page (SERP). In general,
+        increase in link equity means higher positions in SERP and more traffic from search engines to the link targets
+        URLs.
     </p>
     <p>
         When web was young and brimming with independent and hobbyist projects, links were the
@@ -52,9 +50,9 @@ const Motivation = () => <section className={"motivation"}>
         platform, not an artist.
     </p>
     <p>
-        This is at 500 million works where link equity was taken from the rightful artist.
-        DC BY goal is to change that.
+        There at least 500 million works where link equity was stripped from the original creator. DC BY goal is to
+        change that.
     </p>
-</section>
+</section>;
 
-export default Motivation
+export default Motivation;
