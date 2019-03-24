@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
-import styled from "styled-components/macro";
+import styled, { createGlobalStyle } from "styled-components/macro";
 import Frontpage from "./frontpage/Frontpage";
 import ALERC from "./ALERC";
 import { BrowserRouter } from "react-router-dom";
@@ -15,6 +14,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
+        <GlobalStyle />
         <AppStyled>
           <Switch>
             <Route exact path="/" component={Header} />
@@ -34,6 +34,53 @@ class App extends Component {
     );
   }
 }
+
+const GlobalStyle = createGlobalStyle`
+body {
+    margin: auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: beige;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Exo', sans-serif;
+}
+
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+
+.mermaid .node rect {
+    fill: white !important;
+}
+
+.mermaid .edgeLabel {
+    background-color: white !important;
+}
+
+
+footer {
+    height: 50px;
+}
+`;
 
 const AppStyled = styled.div`
   display: flex;
