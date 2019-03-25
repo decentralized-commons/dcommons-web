@@ -55,8 +55,6 @@ const Frontpage = () => {
 };
 
 const FrontpageStyled = styled.div`
-  
-
   .Frontpage h1 {
   }
 

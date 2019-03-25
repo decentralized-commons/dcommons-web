@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "./logo.gif";
 import styled from "styled-components/macro";
-import "./Header.css";
 
 const HeaderStyled = styled.header`
   margin-bottom: 50px;

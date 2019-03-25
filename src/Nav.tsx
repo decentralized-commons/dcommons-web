@@ -1,5 +1,4 @@
 import React from "react";
-import "./Nav.css";
 import styled from "styled-components/macro";
 import logo from "./logo.gif";
 import { Link } from "react-router-dom";
