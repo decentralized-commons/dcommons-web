@@ -59,11 +59,11 @@ const ALERC = () => {
                     </a>
                 </li>
             </ul>
-
-            Implementation of rel="canonical" link tag by platforms for Creative Commons works would immediately restore an enormous
-            amount of value for CC-licensed authors. Unfortunately, platforms and authors incentives are not aligned and it
+            Implementation of rel="canonical" link tag by platforms for Creative Commons works would immediately restore
+            an enormous
+            amount of value for CC-licensed authors. Unfortunately, platforms and authors incentives are not aligned and
+            it
             would be naive to assume that platforms would release captured link equity.
-
         </p>
     </div>;
 };
