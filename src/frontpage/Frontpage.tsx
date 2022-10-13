@@ -38,7 +38,7 @@ const Frontpage = () => {
           original creators while preserving free culture protections for the public.
         </p>
         <p>
-          <HW>The project is still in early stages and is under active development.</HW>
+          <HW>The project is archived and is NOT under active development.</HW>
         </p>
       </div>
       <Motivation />
